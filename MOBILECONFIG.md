@@ -30,20 +30,20 @@ Here's an example .mobileconfig with the above fields filled in:
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>PayloadDisplayName</key>
-	<string>WireGuard Demo Configuration Profile</string>
-	<key>PayloadType</key>
-	<string>Configuration</string>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
-	<key>PayloadIdentifier</key>
-	<string>com.your-org.wireguard.FCC9BF80-C540-44C1-B243-521FDD1B2905</string>
-	<key>PayloadUUID</key>
-	<string>F346AAF4-53A2-4FA1-ACA3-EEE74DBED029</string>
-	<key>PayloadContent</key>
-	<array>
+    <key>PayloadDisplayName</key>
+    <string>WireGuard Demo Configuration Profile</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadIdentifier</key>
+    <string>com.your-org.wireguard.FCC9BF80-C540-44C1-B243-521FDD1B2905</string>
+    <key>PayloadUUID</key>
+    <string>F346AAF4-53A2-4FA1-ACA3-EEE74DBED029</string>
+    <key>PayloadContent</key>
+    <array>
         <!-- An array of WireGuard configuration payload dictionaries -->
-	</array>
+    </array>
 </dict>
 </plist>
 ```
